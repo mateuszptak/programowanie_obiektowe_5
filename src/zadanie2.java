@@ -3,7 +3,8 @@
 public class zadanie2 {
     public static void main(String[] args) {
 
-        // Tworzymy obiekt typu Gotuj, ale przypisujemy mu konkretną klasę tj. Thermomix, Babcia, Mama
+        // Tworzymy obiekt typu Gotuj, ale przypisujemy mu konkretną klasę tj.
+        // Thermomix, Babcia, Mama
         Gotuj kucharz1 = new Thermomix();
         Gotuj kucharz2 = new Babcia();
         Gotuj kucharz3 = new Mama();
@@ -33,7 +34,7 @@ class Thermomix implements Gotuj {
 class Babcia implements Gotuj {
     @Override
     public void gotujDanie(String danie) {
-        System.out.println("Babcia z miłością gotuje: " + danie + " i dodaje sekretny składnik.");
+        System.out.println("Wera gotuje: " + danie + " i dodaje sekretny składnik.");
     }
 }
 

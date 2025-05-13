@@ -4,12 +4,5 @@
 
 public class Main {
     public static void main(String[] args) {
-        Vehicle car = new Car("Volvo");
-        Vehicle bicycle = new Bicycle("Romecik");
-
-        car.start();
-        bicycle.start();
     }
 }
-
-
